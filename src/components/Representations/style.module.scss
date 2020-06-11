@@ -1,0 +1,14 @@
+.representations_container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+.representations_container p {
+  font-size: .8em;
+  padding-top: 30px;
+  text-align: center;
+  white-space: pre-wrap;
+}
