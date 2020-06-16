@@ -5,8 +5,10 @@ import { FcSupport } from 'react-icons/fc'
 import { FaRegHandshake, FaPeopleCarry, FaRegCopyright } from 'react-icons/fa'
 
 import AboutCards from './AboutCards'
+import Parallax from '../Parallax'
 
 import Style from './style.module.scss'
+import ParallaxBackground from '../../assets/parallax/02.jpg'
 
 const About = () => {
   const aboutItems = [
@@ -23,11 +25,16 @@ const About = () => {
   return (
     <section 
       className={ Style.about_container }
+      data-aos="fade-right"
+      data-aos-duration="1000"
       id="sobre"
     >
       <h1>Sobre</h1>
 
-      <p>
+      <p 
+        data-aos="fade-right"
+        data-aos-duration="1000"
+      >
         Somos uma empresa de representações para o setor agropecuário. <br /><br />
         Temos como foco principal, produtos diferenciados que entregam mais pelo mesmo custo. <br /><br />
         Foco em resultados ao consumidor final. <br /><br />
@@ -46,7 +53,7 @@ const About = () => {
         }
      </div>
 
-     <div className={ Style.about_parallax } />
+     <Parallax background={ ParallaxBackground } />
     </section>
   )
 }
