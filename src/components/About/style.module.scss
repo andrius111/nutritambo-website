@@ -11,10 +11,12 @@
   padding-top: 30px;
   text-align: center;
   white-space: pre-wrap;
+  width: 75%;
 }
 
 .about_items {
   display: flex;
   flex-wrap: wrap;
-  width: 1000px;
+  justify-content: center;
+  width: 75%;
 }

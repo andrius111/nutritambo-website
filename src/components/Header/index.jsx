@@ -7,6 +7,15 @@ import Style from './style.module.scss'
 const Header = () => {
   return (
     <header className={ Style.header_container }>
+      <div className={ Style.header_topbar_container }>
+        <div className={ Style.header_topbar_content }>
+          <div className={ Style.header_top_bar_contacts }>
+            <div><strong>André:</strong> 54 99917-2275</div>
+            <div><strong>Martini:</strong> 54 99961-6386</div>
+          </div>
+        </div>
+      </div>
+
       <nav className={ Style.nav_container }>
         <a href="#home">
           <img 

@@ -7,6 +7,7 @@ import About from '../../components/About'
 import Representations from '../../components/Representations'
 import Contact from '../../components/Contact'
 import Footer from '../../components/Footer'
+import WhatsAppFloatButton from '../../components/WhatsAppFloatButton'
 
 import '../../../node_modules/aos/dist/aos.css'
 
@@ -27,6 +28,8 @@ const Home = () => {
       </main>
 
       <Footer />
+
+      <WhatsAppFloatButton />
     </React.Fragment>
   )
 }

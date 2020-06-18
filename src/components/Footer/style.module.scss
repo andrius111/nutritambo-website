@@ -1,6 +1,35 @@
 .footer_container {
-  background-color: black;
+  align-items: center;
+  background-color: #24272B;
   display: flex;
   height: 300px;
   margin-top: 50px;
+  justify-content: center;
+}
+
+.footer_content {
+  display: flex;
+  width: 70%;
+  align-items: center;
+  color: #fff;
+  justify-content: space-between;
+  height: 70%;
+  align-items: center;
+}
+
+.footer_container img {
+  width: 280px;
+  height: 200px;
+}
+
+.footer_contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 55%;
+}
+
+.footer_social_media {
+  display: flex;
+  justify-content: space-around;
 }

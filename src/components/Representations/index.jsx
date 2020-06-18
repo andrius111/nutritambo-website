@@ -16,7 +16,9 @@ const Representations = () => {
     >
       <h1>Representações</h1>
 
-      <RepresentationsItems />
+      <div className={ Style.representations_content }>
+        <RepresentationsItems />
+      </div>
 
       <Parallax background={ ParallaxBackground } />
     </section>
