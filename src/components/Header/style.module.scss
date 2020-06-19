@@ -7,13 +7,17 @@
   justify-content: space-between;
 }
 
+.header_container_300 {
+  height: 300px;
+}
+
 .header_topbar_container {
   align-items: center;
   justify-content: center;
   display: flex;
   background-color: #24272B;
-  height: 20%;
-  width: 100vw;
+  height: 40px;
+  width: 100%;
   margin-top: 0;
 }
 
@@ -22,13 +26,16 @@
   justify-content: flex-end;  
   font-size: 14px;
   color: #fff;
-  width: 75vw;
+  width: 75%;
 }
 
 .header_top_bar_contacts {
   display: flex;
-  width: 30%;
   justify-content: space-around;
+}
+
+.header_top_bar_contacts_item {
+  padding-left: 15px;
 }
 
 .nav_container {
@@ -40,11 +47,19 @@
   width: 75%;
 }
 
+.nav_container_responsive {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 140px;
+  justify-content: space-between;
+}
+
 .logo {
   width: 250px;
 }
 
-.nav_container a {
+.nav_container a, .nav_container_responsive a {
   color: #000;
 }
 
@@ -72,4 +87,41 @@
   display: flex;
   justify-content: space-around;
   width: 90px;
+}
+
+.burger_menu_icon {
+  display: none;
+}
+
+.hidden {
+  display: none;
+}
+
+@media screen and (max-width: 950px) {
+  .nav_container a:not(:first-child) {
+    display: none;
+  }
+
+  .logo {
+    width: 200px;
+  }
+  
+  .social_media_links {
+    display: none;
+  }
+
+  .burger_menu_icon {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .logo {
+    width: 150px;
+  }
+
+  .header_topbar_content {
+    justify-content: center;
+    width: 100%;
+  }
 }
