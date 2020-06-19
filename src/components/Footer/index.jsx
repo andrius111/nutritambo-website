@@ -2,7 +2,6 @@ import React from 'react'
 import { FaFacebook, FaInstagram } from 'react-icons/fa'
 
 import Logo from '../../assets/logo.png'
-
 import Style from './style.module.scss'
 
 const Footer = () => {
