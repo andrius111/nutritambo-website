@@ -1,13 +1,39 @@
 .about_cards {
-  display: flex;
-  width: 260px;
-  flex-direction: column;
   align-items: center;
   background-color: #fff;
-  justify-content: center;
-  height: 180px;
   border-radius: 10px;
-  font-weight: 700;
-  margin: 20px;
+  display: flex;
+  flex-direction: column;
   font-size: .9em;
+  font-weight: 700;
+  height: 180px;
+  justify-content: center;
+  margin: 20px;
+  width: 260px;
+}
+
+@media screen and (max-width: 800px) {
+  .about_cards {
+    height: 160px;
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .about_cards {
+    height: 160px;
+    width: 160px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .about_cards {
+    height: 140px;
+    width: 140px;
+    font-size: .7em;
+  }
+
+  .about_cards p {
+    padding-top: 7px !important;
+  }
 }

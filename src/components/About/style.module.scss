@@ -20,3 +20,9 @@
   justify-content: center;
   width: 75%;
 }
+
+@media screen and (max-width: 650px) {
+  .about_items {
+    width: 100%;
+  }
+}
