@@ -7,6 +7,7 @@ import RumoBanner from '../../assets/banners/rumo.jpg'
 import CargaPesadaBanner from '../../assets/banners/cargapesada.jpg'
 import SementesAdrianaBanner from '../../assets/banners/semestesadriana.jpg'
 import KWSBanner from '../../assets/banners/kws.jpg'
+import Gmax from '../../assets/banners/gmax.jpg'
 
 import Style from './style.module.scss'
 import '../../../node_modules/slick-carousel/slick/slick.css'
@@ -28,6 +29,7 @@ const Carousel = () => {
         <div><img src={ BiotrigoBanner } alt="Biotrigo Banner" /></div>
         <div><img src={ RumoBanner } alt="Rumo Banner" /></div>
         <div><img src={ CargaPesadaBanner } alt="Carga Pesada Banner" /></div>
+        <div><img src={ Gmax } alt="Gmax Banner" /></div>
       </Slider>
     </section>
   )
