@@ -17,65 +17,63 @@ const RepresentationsItens = () => {
       img: Rumo,
       textAlign: 'left',
       text: `Linha completa de <strong> Minerais Rumo</strong>, a solução perfeita para cada situação. <br />
-      A empresa destaca-se por vários fatores, mas os princiapais são:
       - Matérias primas selecionadas para a formulação dos produtos;
       - Flexibilidade na formulação de novos produtos;
-      - Possibilidade de produzir marcas próprias para parceiros comerciais;
-      - Equipe técnica de suporte são os próprios proprietários do negócio com alto conhecimento no assunto.`,
+      - Desenvolvimento de marcas próprias para parceiros comerciais;
+      - Equipe técnica de suporte com especialistas no segmento.`,
     },
 
     {
       title: 'Representante KWS',
       img: KWS,
       textAlign: 'right',
-      text: `Semente de milho <strong> KWS</strong>, os melhores milhos para silagem, campeã nos ensaios CCGL safra 18/19. <br />
-      - Quantidade aliado a qualidade, entregando muito mais leite por há produzido;
-      - Acentuado stay green que amplia a janela de corte para silagem;
-      - Grão profundo que facilita a quebra no mesmo no processo de ensilagem;
-      - Fibra com alta digestibilidade.`,
+      text: `A <strong>KWS</strong> é especialista em produção de sementes de milho e soja. <br />
+      - Desde 1856 produzindo os melhores híbridos de milho na Alemanha;
+      - Qualidade e produtividade nos materiais para silagem e grão;
+      - Melhor conversão de litros de leite por kg/MS;
+      - Qualidade e vigor nas sementes;
+      - Variedades de soja super produtivas e com ciclo curto;`,
     },
 
     {
       title: 'Representante ATTO Adriana Sementes',
       img: SementesAdriana,
       textAlign: 'left',
-      text: `Sementes de pastagens<strong> ATTO Adriana Sementes</strong>, os melhores milhetos e azevéns disponíveis no mercado e agora com a novidade Trevo Alexandrino Tigri também. <br />
-      - Milheto híbrido ADRf 6010 o melhor material para pastagem de verão, alta produtividade com muita proteína, redução de custo na propriedade é o que entrega;
-      - Azevens diploide e tetraploide, ciclo alongado, alta produção de MS/ha, resistência a doenças e alta conversão em leite;
-      - Trevo alexandrino variedade Tigri, um material que veio para marcar época, a melhor opção para sobressemeadura em gramas no inverno;`,
+      text: `<strong>ATTO Adriana Sementes</strong> oferta as melhores opções em milhetos, azevéns, trevo e crotalária.<br />
+      - Milheto híbrido ADRf 6010 - Valente e ADR 500 os melhores materiais para pastagens de verão;
+      - Azevéns Nibbio e Ceronte a certeza de produtividade com qualidade no inverno;
+      - ADR 300 e Crotalária são a garantia de uma cobertura com segurança e resultados.
+      - Trevo Tigri vem para melhorar a qualidade das forragens`,
     },
 
     {
       title: 'Representante Biotrigo',
       img: Biotrigo,
       textAlign: 'right',
-      text: `<strong> Trigo Lenox da Biotrigo </strong> é uma tecnologia nova que vem para entregar muito mais quantidade com qualidade em termos de pastagens superiores. Um material com vários diferenciais: <br />
-      - Alta palatabilidade;
-      - Elevada produção e MS/ha podendo chegar a 100 kg/dia;
-      - Chega a 30% de PB, resultando em economia ao produtor com a redução da PB da ração;
-      - Sistema radicular muito agressivo, colaborando inclusive para descompactação do solo;
-      - Sanidade foliar;
-      - Alta capacidade de rebrote que lhe confere um grande número de pastejos;
-      - Excelente conversão em leite e carne por kg de MS.`,
+      text: `A <strong>Biotrigo Genética</strong> agora também com a linha Nutrição Animal. <br />
+      - Com genética européia o Trigo Lenox entrega qualidade e quantidade na entressafra de pastagens;
+      - O Trigo Energix é a melhor opção para pré-secado e silagem de inverno
+      - Os trigos entregam altas produtividades com qualidade, além de estabilidade.`,
     },
 
     {
       title: 'Representante Lonas Carga Pesada',
       img: CargaPesada,
       textAlign: 'left',
-      text: `Toda linha de <strong>Lonas Carga Pesada </strong>, material altamente resistente, produzido com a melhor matéria prima e aditivos especiais, entregando segurança ao produto armazenado.`,
+      text: `A <strong>Carga Pesada</strong> chega ao RS com o que ha de melhor em lonas para silagem.<br>
+      - Produtos fabricados com a melhor matéria prima;
+      - Aditivos especiais garantem a qualidade;
+      - Lona Premium é a grande novidade do mercado de lonas.`,
     },
 
     {
       title: 'Representante Gmax',
       img: Gmax,
       textAlign: 'right',
-      text: `<strong> Aveia GMX Bagual</strong> , uma aveia forrageira diferenciada para altas produtividades de MS/há e com qualidade <br />
-      - Alta capacidade de rebrote
-      - Ciclo longo
-      - Alto teor de proteína e qualidade de fibra
-      - Super resistente ao pisoteio
-      -Alta resistência a doenças`,
+      text: `<strong>Gmax Genética Gaúcha</strong> traz novidades no mercado de aveias superiores. <br />
+      - As aveias GMX Bagual e GMX Tambo são materiais superiores;
+      - Ciclo longo e com alto teto produtivo;
+      - Alta conversão em leite por Kg/MS consumido.`,
     }
   ]
 
@@ -96,7 +94,7 @@ const RepresentationsItens = () => {
               data-aos-duration="1000"
               key={ representation.title }
             >
-              <p className={ Style["text_" + representation.textAlign] }>
+              <p>
                 { ReactHtmlParser(representation.text) }
               </p>
   

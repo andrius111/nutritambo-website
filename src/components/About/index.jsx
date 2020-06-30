@@ -35,10 +35,10 @@ const About = () => {
         data-aos="fade-right"
         data-aos-duration="1000"
       >
-        Somos uma empresa de representações para o setor agropecuário. <br /><br />
-        Temos como foco principal, produtos diferenciados que entregam mais pelo mesmo custo. <br /><br />
-        Foco em resultados ao consumidor final. <br /><br />
-        Entregamos não somente produtos, mas sim um suporte técnico pré e pós vendas. <br /><br />
+        Trabalhamos com  distribuição e representação de produtos para o setor agropecuário. <br /><br />
+        Temos como foco principal disponibilizar produtos diferenciados que entregam mais resultados aos nossos clientes, sejam eles revendas ou agricultores. <br /><br />
+        Nossa meta não é apenas entregar produtos com qualidade, mas levar conhecimento aos nossos parceiros comerciais e ao produtor rural. <br /><br />
+        Venha ser o Novo, venha ser Nutritambo você também. <br /><br />
      </p>
 
      <div className={ Style.about_items }>
