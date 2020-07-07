@@ -50,6 +50,37 @@
   width: 150px;
 }
 
+.contact_form button:disabled {
+  cursor: no-drop;
+}
+
+.icon_spin {
+  -webkit-animation: icon_spin 2s infinite linear;
+          animation: icon_spin 2s infinite linear;
+}
+
+@-webkit-keyframes icon_spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+            transform: rotate(359deg);
+  }
+}
+
+@keyframes icon_spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+            transform: rotate(359deg);
+  }
+}
+
 @media screen and (max-width: 700px) {
   .contact_form {
     width: 80%;
