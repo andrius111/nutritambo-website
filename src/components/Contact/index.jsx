@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { FiLoader } from 'react-icons/fi'
 import axios from 'axios'
-import Swal from 'sweetalert2'
+import Swal from 'sweetalert2/src/sweetalert2.js'
 
 import Style from './style.module.scss'
 import '@sweetalert2/theme-borderless/borderless.scss';
@@ -12,6 +12,15 @@ const Contact = () => {
   const [phone, setPhone] = useState('')
   const [message, setMessage] = useState('')
   const [sendingMail, setSendingMail] = useState(false)
+
+  const handleSwalError = error => {
+    Swal.fire({
+      title: 'Não foi possível enviar o email...',
+      html: error === '' ? 'Ocorreu um erro desconhecido, tente novamente mais tarde.' : error,
+      showCloseButton: true,
+      icon: 'error'
+    })
+  }
 
   const handleSubmit = event => {
     event.preventDefault()
@@ -24,14 +33,7 @@ const Contact = () => {
       phone,
       message 
     }).then(response => {
-      if (response.data.error) {
-        Swal.fire({
-          title: 'Não foi possível enviar o email...',
-          html: response.data.error,
-          showCloseButton: true,
-          icon: 'error'
-        })
-      } else {
+      if (response.data.success) {
         Swal.fire({
           title: 'Email enviado com sucesso...',
           html: 'Logo entraremos em contato!',
@@ -43,8 +45,13 @@ const Contact = () => {
         setEmail('')
         setPhone('')
         setMessage('')
+      } else {
+        handleSwalError(response.data.error ? response.data.error : '')
       }
 
+      setSendingMail(false)
+    }).catch(() => {
+      handleSwalError('')
       setSendingMail(false)
     })
   }
