@@ -47,4 +47,4 @@ This project was developed with the following technologies:
 Give a ⭐️ if this project helped you!
 
 ***
-_Made with ❤️ by [Andrius Martini](https://github.com/andrius111)_
+_Made with ❤️  by [Andrius Martini](https://github.com/andrius111)_
