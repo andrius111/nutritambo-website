@@ -1,24 +1,31 @@
-<h1 align="center">Welcome to nutritambo-website 👋</h1>
-<p>
+<h1 align="center">
+  <img width="60%" alt="Nutritambo" src="https://res.cloudinary.com/andriusmartini/image/upload/v1594694452/readmes/nutritambo/logo_guchtv.png" />
+
+  <br>
+
+  Welcome to nutritambo-website 👋
+</h1>
+
+<p align="center">
   <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
 </p>
 
-> This project is about a website for Nutritambo company
+<h2 align="center">This project is about a website for Nutritambo company</h2>
 
-### 🏠 [Click here to access the website](https://www.nutritambo.com.br)
+## 🏠 [Click here to access the website](https://www.nutritambo.com.br)
 
-## Screenshots
-### Desktop
+## 📷 Screenshots
+### 💻 Desktop
 <p align="center">
   <img alt="Desktop Screenshot" src="https://res.cloudinary.com/andriusmartini/image/upload/v1594690660/readmes/nutritambo/desktop_fy48kp.png">
 </p>
 
-### Mobile
+### 📱 Mobile
 <p align="center">
   <img alt="Mobile Screenshot" src="https://res.cloudinary.com/andriusmartini/image/upload/v1594690652/readmes/nutritambo/mobile_l2pcrf.png">
 </p>
 
-## Technologies
+## 🛠 Technologies
 This project was developed with the following technologies:
 
 - [react](https://github.com/facebook/react)
@@ -28,9 +35,9 @@ This project was developed with the following technologies:
 - [sweetalert2](https://github.com/sweetalert2/sweetalert2)
 - [react-icons](https://github.com/react-icons/react-icons)
 
-## Author
+## 👤 Author
 
-👤 **Andrius Martini**
+**Andrius Martini**
 
 * Github: [@andrius111](https://github.com/andrius111)
 * LinkedIn: [@andrius-martini](https://linkedin.com/in/andrius-martini)
