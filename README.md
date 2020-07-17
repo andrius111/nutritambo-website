@@ -22,7 +22,7 @@
 
 ### 📱 Mobile
 <p align="center">
-  <img alt="Mobile Screenshot" src="https://res.cloudinary.com/andriusmartini/image/upload/v1594946190/readmes/nutritambo/gif-mobile_r0kisv.gif">
+  <img alt="Mobile Screenshot" src="https://res.cloudinary.com/andriusmartini/image/upload/v1594690652/readmes/nutritambo/mobile_l2pcrf.png">
 </p>
 
 ## 🛠 Technologies
