@@ -32,6 +32,14 @@ const Footer = () => {
           </div>
         </div>
 
+        <div className={ Style.footer_address }>
+          <h3>Endereço:</h3>
+
+          Rua Franklin Siliprandi, 25 <br/>
+          Constantina / RS <br/>
+          CEP: 99680-000
+        </div>
+
         <div className={ Style.footer_contacts }>
           <h3>Contatos:</h3>
           <ul>
